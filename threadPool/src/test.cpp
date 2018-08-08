@@ -17,8 +17,8 @@ using namespace Thread_Pool;
 void thread_func(const int idx)
 {
 	//std::cout <<"func " << idx << endl;
-	std::default_random_engine e(time(0));
-	std::uniform_int_distribution<unsigned> u(1, 5);
+	static std::default_random_engine e(time(0));
+	static std::uniform_int_distribution<unsigned> u(1, 5);
 	
 	std::chrono::milliseconds timespan(u(e) * 1000);
 	std::this_thread::sleep_for(timespan);
