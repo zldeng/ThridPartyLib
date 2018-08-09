@@ -6,8 +6,8 @@
 * description : enjoy coding!
 */
 
-#ifndef _THRIFTWRAPPER_CPP_
-#define _THRIFTWRAPPER_CPP_
+#ifndef _THRIFTWRAPPER_H_
+#define _THRIFTWRAPPER_H_
 #include <iostream>
 #include <string>
 #include <utility>
