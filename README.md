@@ -11,3 +11,9 @@ sh autogen.sh && ./configure && make && make install
 
 3. 使用demo：main.cpp，demo中编译时用blade
 4. blade链接:https://github.com/chen3feng/typhoon-blade
+
+# threadPool
+使用C++11实现的简单的线程池
+
+# ThriftWrapper
+基于C++模板实现的对thrift server、client的封装，方便快速实现基于thrift的服务端和客户端
