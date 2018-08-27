@@ -17,3 +17,6 @@ sh autogen.sh && ./configure && make && make install
 
 # ThriftWrapper
 基于C++模板实现的对thrift server、client的封装，方便快速实现基于thrift的服务端和客户端
+
+# gflags_demo
+google gflags命令行参数处理库，参考链接：https://github.com/gflags/gflags
